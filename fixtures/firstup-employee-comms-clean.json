@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "id": "COM-7001",
+      "campaign": "Quarterly leadership update",
+      "audience": "All employees",
+      "platform": "FirstUp + Entra",
+      "owner": "Executive Communications",
+      "status": "ON_TRACK",
+      "workflowHealthy": true,
+      "daysToLaunch": 5,
+      "packet": "leadership-send packet",
+      "excerpt": "Audience proof, approval, and send timing are already aligned.",
+      "nextAction": "Publish and archive the packet."
+    }
+  ],
+  "packets": [
+    {
+      "id": "PKT-9001",
+      "programId": "COM-7001",
+      "campaign": "Quarterly leadership update",
+      "audience": "All employees",
+      "platform": "FirstUp + Entra",
+      "owner": "Executive Communications",
+      "domain": "SEGMENT",
+      "kind": "AudienceEvidence",
+      "severity": "low",
+      "status": "RESOLVED",
+      "scope": "Global audience proof",
+      "principal": "all-employees",
+      "message": "Audience proof resolved and archived.",
+      "openedAt": "2026-05-10T08:00:00Z",
+      "dueAt": "2026-05-12T08:00:00Z"
+    }
+  ]
+}
